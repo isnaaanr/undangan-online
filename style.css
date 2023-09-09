@@ -8,7 +8,6 @@
 body{
     font-size: 1.2rem;
     font-family: 'Frank Ruhl Libre', serif;
-    overflow-x: hidden;
     min-height: 4000px;
 }
 
@@ -56,24 +55,27 @@ body{
     box-shadow: var(--shadow);
 }
 
-.mynavbar {
+.mynavbar{
+    background-color: rgba(12, 52, 82, 0) !important ;
     backdrop-filter: blur(4px);
-  }
-  
-  .mynavbar .offcanvas {
+}
+
+.mynavbar .offcanvas{
     height: 100vh;
-  }
-  
-  .mynavbar .navbar-brand,
-  .mynavbar .offcanvas-title {
-    font-family: "Sacramento", cursive;
-    font-size: 3.2rem;
-    font-weight: bold;
-  }
-  
-  .mynavbar .nav-link {
+}
+
+.nav-link{
+    color: #1e3347;
+}
+
+.mynavbar .navbar-brand,
+.mynavbar .offcanvas-title{
+    font-size: 2rem;
+}
+.mynavbar .nav-link{
     text-transform: uppercase;
-  }
+}
+
 .home{
     background-color: #e8eaeb;   
     background-size: cover;
